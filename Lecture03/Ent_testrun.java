@@ -22,6 +22,9 @@ public class Ent_testrun {
 
         // Shouldn't this line points p1 to new_player?
         p1 = a_player_to_replace_input;
+
+        // My guess is the function creates a new p1 object when called, then when the
+        // function is finish, p1 immediately got garbage collected.
     }
 
     /** My question is if i want to control multiple objects like C++,
